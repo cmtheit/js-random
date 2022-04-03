@@ -1,0 +1,11 @@
+{
+  "name": "js-chengmin-random",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is the package.json of the random package",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cmtheit",
+  "license": "ISC"
+}
