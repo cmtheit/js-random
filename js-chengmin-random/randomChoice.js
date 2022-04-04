@@ -29,10 +29,4 @@ function test(){
 }
 
 
-function test(){
-    let randomfromSet = randomChoice(new Set([1,3,4,5]), new Set([..."hello world!"]));
-    let randomFromArrayAndString = randomChoice([1,2,4,5,6], "hello world!");
-    console.log(randomfromSet, randomFromArrayAndString);
-}
-
 export {randomChoice}
