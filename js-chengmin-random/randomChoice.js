@@ -35,5 +35,4 @@ function test(){
     console.log(randomfromSet, randomFromArrayAndString);
 }
 
-
 export {randomChoice}
