@@ -9,7 +9,7 @@ oneInOther(...other)
 generateFromRange(transformMethod, lowerBound, upperBound);
     此函数文档见 generateFromRange.js
 randomChoice(...collector) 
-    此函数接受若干可迭代对象，返回一个函数。返回的函数接受0个参数，用于从指定的可迭代对象的并集中一相同的概率返回一个成员。
+    此函数接受若干可迭代对象，返回一个函数。返回的函数接受0个参数，用于从指定的可迭代对象的并集中以相同的概率返回一个成员。
 
 Welcome, this package provides an API for generating random strings and numbers. You can also use three factory functions:
 oneInOther(... other)
