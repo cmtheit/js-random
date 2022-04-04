@@ -56,7 +56,14 @@ function test(){
     console.log(randomNumberString(), randomUpperString(),randomLowerString(), randomAlphaString(), randomAlNumString(), randomPrintableString())
 }
 
-export {randomAlNumString, randomAlphaString, randomLowerString, randomUpperString, randomNumberString, randomString}
+export {
+    randomString,
+    randomAlNumString,
+    randomAlphaString,
+    randomLowerString,
+    randomUpperString,
+    randomNumberString,
+}
 
 
 
