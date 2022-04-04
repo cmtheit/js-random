@@ -1,4 +1,3 @@
-// range是可以下标访问的数据结构，其0下标和1下标分别代表所要生成的字符的上限和下限。
 import {generateCharsFromRange} from './generateFromRange.js';
 // 随机字符串生成的默认长度
 const randomLengthRange = [5, 20];
@@ -31,8 +30,15 @@ function test(){
     console.log("可打印字符：", printableChars);
 }
 
-export {numberChars, xdigitChars,
-    upperChars, lowerChars, alphaChars, alNumChars,
+export {
+    numberChars, 
+    xdigitChars,
+    upperChars, 
+    lowerChars,
+    alphaChars,
+    alNumChars,
     printableChars,
-    randomLengthSymbol, randomLengthRange}
+    randomLengthSymbol, 
+    randomLengthRange
+}
 
