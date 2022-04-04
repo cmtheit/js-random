@@ -34,6 +34,14 @@ import {
 } from "./js-chengmin-random/randomChar";
 import {randomChoice} from "./js-chengmin-random/randomChoice";
 import {randomInt, randomFloat} from "./js-chengmin-random/randomNumber";
+import {
+    randomAlNumString,
+    randomAlphaString,
+    randomLowerString,
+    randomUpperString,
+    randomNumberString,
+    randomString
+} from "./js-chengmin-random/randomString";
 
 export {
     // 各种字符集
@@ -45,7 +53,7 @@ export {
     alNumChars,
     printableChars,
 
-    // 以下是所有函数结构
+    // 以下是所有函数api
     oneInOther,
     isprintable,
     isalnum,
@@ -58,6 +66,7 @@ export {
     generateNumbersFromRange,
     generateCharsFromRange,
 
+    // random Chars
     randomChoice,
     randomAlphaChar,
     randomAlNumChar,
@@ -65,6 +74,16 @@ export {
     randomUpperChar,
     randomLowerChar,
     randomPrintableChar,
+
+    // random Strings
+    randomString,
+    randomUpperString,
+    randomLowerString,
+    randomNumberString,
+    randomAlphaString,
+    randomAlNumString,
+
+    // random Numbers
     randomInt,
     randomFloat,
     // 一个类，用分数表示概率，用 ok() 函数来测试本次调用是否为 true
