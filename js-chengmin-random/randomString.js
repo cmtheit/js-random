@@ -24,7 +24,7 @@ function randomString(...collection){
         if (length !== randomLengthSymbol && Math.trunc(length) <= 0){
             return "";
         }
-        length = length === randomLengthSymbol ? randomInt(randomLengthRange) : Math.trunc(length);
+        length = length === randomLengthSymbol ? randomInt(...randomLengthRange) : Math.trunc(length);
         let res = "";
         for (let i = 0; i < length; ++i) {
             let over = randomChoice(...collection)
