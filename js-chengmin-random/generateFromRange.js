@@ -1,5 +1,5 @@
 /* 本模块从一个 range 参数的 0 和 1 下标生成一个包含介于它们之间的所有对象的数组
-   可定制函数API：generateFromRange 行数： 4
+   可定制函数API：generateFromRange 行数: 8
    传入转换函数 transformMethod，下限函数 lowerBound 和上限函数 upperBound， 均为可选。
    返回一个函数，接受若干个二元数组，对每个二元数组的第一个成员调用 lowerBound函数， 第二个成员调用 upperBound函数，分别得到下限和上限（均为整数）
    而转换函数用于将每一个 下限和上限之间的值转换为新值，加入到返回的res数组中。
@@ -36,7 +36,7 @@ const generateCharsFromRange = generateFromRange(
     (range) => range[1].charCodeAt ? range[1].charCodeAt(0) : range[1]
 )
 
-// 将从数字上下限产生连续的数字数组
+// 将从整数上下限产生连续的整数数组（均为闭区间）
 const generateNumbersFromRange = generateFromRange();
 
 export {generateNumbersFromRange, generateCharsFromRange, generateFromRange }
