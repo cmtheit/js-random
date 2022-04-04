@@ -8,8 +8,6 @@ import {
     alphaChars,
     alNumChars,
     printableChars,
-    randomLengthSymbol,
-    randomLengthRange
 } from "./js-chengmin-random/constants.js";
 import {
     oneInOther,
