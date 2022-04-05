@@ -23,17 +23,17 @@ import {
     generateCharsFromRange,
     generateFromRange
 } from "./js-chengmin-random/generateFromRange.js";
-import {Probability} from "./js-chengmin-random/probability";
+import {Probability} from "./js-chengmin-random/probability.js";
 import {
     randomAlphaChar,
     randomAlNumChar,
-    randomNumberChar,
     randomUpperChar,
     randomLowerChar,
-    randomPrintableChar
-} from "./js-chengmin-random/randomChar";
-import {randomChoice} from "./js-chengmin-random/randomChoice";
-import {randomInt, randomFloat} from "./js-chengmin-random/randomNumber";
+    randomPrintableChar,
+    randomNumberChar,
+} from "./js-chengmin-random/randomChar.js";
+import {randomChoice} from "./js-chengmin-random/randomChoice.js";
+import {randomInt, randomFloat} from "./js-chengmin-random/randomNumber.js";
 import {
     randomAlNumString,
     randomAlphaString,
@@ -41,7 +41,7 @@ import {
     randomUpperString,
     randomNumberString,
     randomString
-} from "./js-chengmin-random/randomString";
+} from "./js-chengmin-random/randomString.js";
 
 export {
     // 各种字符集
